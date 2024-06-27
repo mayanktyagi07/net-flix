@@ -1,0 +1,95 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url('http://cdn.shopify.com/s/files/1/0607/5056/1539/articles/netflix.jpg?v=1669877376')
+    center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen_logo{
+    position: fixed;
+    left:0;
+    cursor:pointer;
+    width: 80px;
+    object-fit: contain;
+}
+.loginScreen_button
+{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ef0514;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+.loginScreen_body{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}
+.loginScreen_body>h1
+{
+    font-size: 2rem;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.loginScreen_body>h2
+{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.loginScreen_body>h3
+{
+    font-size: 1rem;
+    
+    font-weight: 400;
+}
+.loginScreen_input>form>input
+{
+    padding: 12px;
+    outline-width: 0;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    max-width: 600px;
+}
+.loginScreen_input{
+    margin: 20px;
+}
+.loginScreen_GetStarted{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ef0514;
+    padding: 18px 20px;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}

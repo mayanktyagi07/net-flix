@@ -1,0 +1,36 @@
+.Profile{
+    height: 100vh;
+    color: white;
+
+}
+.Profile_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+
+}
+
+.Profile_info{
+    display: flex;
+}
+.Profile_info > img{
+    height: 100px;
+    margin-right: 20px;
+}
+.Profile_body>h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}  
+.Profile_details{
+    background-color: gray;
+    padding: 15px;
+    font-size:15px;
+    padding-left: 20px;
+}
+
